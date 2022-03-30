@@ -1,0 +1,169 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: my_intent
+  examples: |
+    - I need a help
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: know_about_program
+  examples: |
+    - I want to know about the program
+    - Interested about different programs
+    - Details of program
+    - program information
+    - I want to know about the programs
+    - Programs Information
+    - programs information
+    - Program Information
+    - funding information
+    - What programs for Indigenous businesses have funding available?
+
+- intent: tell_program_name
+  examples: |
+    - Education Partnerships Program
+    - education partnerships program
+    - Education Partnership Program
+    - education eartnership program
+    - Education Program
+    - education program
+    - Partnership Education Program
+    - Partnerships Education Program
+    - partnership education program
+    - partnerships education program
+    - Partnership Program
+    - Partnerships Program
+    - partnership program
+    - partnerships program
+- intent: whocan_apply
+  examples: |
+    - who can apply
+    - criteria for applying
+    - eligibility for applying
+    - Who can I contact to get more information?
+- intent: deadline
+  examples: |
+    - what is the deadline
+    - deadline for the program
+    - last date to apply
+    - What is the closing day to apply?
+- intent: another_program
+  examples: |
+    - program information
+    - information
+    - I want to know about the program
+    - program informations
+- intent: how_to_apply
+  examples: |
+    - how to apply
+    - procedure to apply to the program
+    - protocol to apply for the program
+    - What are the requirements to apply for funding?
+- intent: program_details
+  examples: |
+    - program details
+    - i want to know more about program details
+    
+    
+- intent: link
+  examples: |
+    - link for program
+    - link for the program
+    - url link for the program
+    - Where can I get an application?
+- intent: bussiness_support
+  examples: |
+    - What support is there for an Indigenous business would like a non-repayable contribution to purchase equipment?.
+    - Are there any interest-free or non-repayable loans for Indigenous businesses?
+    - Do you fund startups?
+- intent: email_id
+  examples: |
+    - aaa@gmail.com
+    - bbb@gmail.com
+- intent: personal_info
+  examples: |
+    - Enter personal info
+    - User info
+    - Personal info
+    - info
+
+

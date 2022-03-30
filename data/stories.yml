@@ -1,0 +1,90 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: my_intent
+  - action: utter_help
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: 
+  
+- story: education_part_program_information
+  steps:
+  - intent: greet
+  - action: utter_greet
+  #- intent: know_about_program
+  #- action: utter_know_more_education_part
+
+- story: who_can_apply_path
+  steps:
+  - intent: whocan_apply
+  - action: action_who_can_apply   
+
+- story: deadline_path
+  steps:
+  - intent: deadline
+  - action: action_deadline
+
+- story: how_to_apply_path
+  steps:
+  - intent: how_to_apply
+  - action: action_how_to_apply
+
+- story: link_path
+  steps:
+  - intent: link
+  - action: action_link
+
+- story: bussiness support
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: bussiness_support
+    
+- story: Another Program
+  steps:
+  - intent: another_program
+  - action: action_anotherProgram
+
+- story: Program_details
+  steps:
+  - intent: program_details
+  - action: action_programDetails
+- story: User Info
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: personal_info
+  - action: form_info
+  - action: form{"email":"form_info"}
+  - action: form{"email":null}
+>Check_email
+- story: affirm path
+>Check_email
+
+
+
+
